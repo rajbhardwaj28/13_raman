@@ -48,6 +48,6 @@ input_data = pd.DataFrame({
 
 # ---------- PREDICTION ----------
 if st.button("Predict Yield"):
-    prediction = model.predict(input_data)[0]
+    prediction = 13_Jyoti_Raman_model.predict(input_data)[0]
 
     st.success(f"🌾 Estimated Yield: {prediction:.2f} tons/hectare")
